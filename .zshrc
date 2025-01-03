@@ -32,6 +32,9 @@ alias       µ˚ga="perl /Users/kakky/Desktop/system/zsh-macros/ga.pl"
 alias       µ˚rc="vim ~/.zshrc"
 alias   µ˚colors="perl /Users/kakky/Desktop/system/zsh-macros/colors.pl"
 alias       µ˚nq="networkQuality"
+alias      µ˚ter="open -a \"Terminal\""
+alias        µ˚x="sh x.sh"
+alias        µ˚a="./a.out"
 
 
 # git-completion
@@ -99,3 +102,8 @@ PERL_MM_OPT="INSTALL_BASE=/Users/kakky/perl5"; export PERL_MM_OPT;
 
 [ -f "/Users/kakky/.ghcup/env" ] && . "/Users/kakky/.ghcup/env" # ghcup-env
 export PATH="/opt/homebrew/opt/bison/bin:$PATH"
+
+# ANTLR
+export CLASSPATH=".:/usr/local/lib/antlr-4.13.2-complete.jar:$CLASSPATH"
+alias antlr4='java -jar /usr/local/lib/antlr-4.13.2-complete.jar'
+alias grun='java org.antlr.v4.runtime.misc.TestRig'
