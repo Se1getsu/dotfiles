@@ -107,3 +107,6 @@ export PATH="/opt/homebrew/opt/bison/bin:$PATH"
 export CLASSPATH=".:/usr/local/lib/antlr-4.13.2-complete.jar:$CLASSPATH"
 alias antlr4='java -jar /usr/local/lib/antlr-4.13.2-complete.jar'
 alias grun='java org.antlr.v4.runtime.misc.TestRig'
+
+# MAPS
+export PATH="/opt/maps-1.5/bin/maps:$PATH"
