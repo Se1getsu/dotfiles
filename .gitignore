@@ -6,3 +6,6 @@
 !.gitignore
 !.zshrc
 !.zprofile
+!.config/
+!.config/git/
+!.config/git/ignore
