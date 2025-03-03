@@ -22,7 +22,7 @@ alias      µ˚gsp="git stash pop"
 alias      µ˚gpl="git pull origin \$(git branch --show-current)"
 alias      µ˚gfp="git fetch --prune"
 
-alias       µ˚bc="git fetch -p && git branch --merged | grep -v '*' | xargs git branch -d"
+alias       µ˚bc="git remote prune origin; git fetch -p && git branch --merged | grep -v '*' | xargs git branch -d"
 
 alias       µ˚cm="perl /Users/kakky/Desktop/system/zsh-macros/cm.pl"
 alias      µ˚cma="perl /Users/kakky/Desktop/system/zsh-macros/cma.pl"
