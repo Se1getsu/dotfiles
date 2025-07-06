@@ -2,6 +2,7 @@ export PATH="$HOME/.pyenv/shims:$PATH"
 alias py=python
 alias pip="python -m pip"
 alias sml="/usr/local/smlnj/bin/sml"
+alias rm="mv2trash"
 
 alias       µ˚gi="git init"
 alias     µ˚grao="git remote add origin"
