@@ -36,6 +36,20 @@ alias      µ˚ter="open -a \"Terminal\""
 alias        µ˚x="sh x.sh"
 alias        µ˚a="./a.out"
 
+# `µ˚tmpdir`で一時ディレクトリに移動、`exit`で削除&元いたディレクトリに戻る
+µ˚tmpdir() {
+  (
+  d=$(mktemp -d "${TMPDIR:-/tmp}/${1:-tmpspace}.XXXXXXXXXX") && cd "$d" || exit 1
+  "$SHELL"
+  s=$?
+  if [[ $s == 0 ]]; then
+    rm -rf "$d"
+  else
+    echo "Directory '$d' still exists." >&2
+  fi
+  exit $s
+  )
+}
 
 # git-completion
 fpath=(~/.zsh $fpath)
