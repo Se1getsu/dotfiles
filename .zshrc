@@ -24,13 +24,13 @@ alias      µ˚gfp="git fetch --prune"
 
 alias       µ˚bc="git remote prune origin; git fetch -p && git branch --merged | grep -v '*' | xargs git branch -d"
 
-alias       µ˚cm="perl /Users/kakky/Desktop/system/zsh-macros/cm.pl"
-alias      µ˚cma="perl /Users/kakky/Desktop/system/zsh-macros/cma.pl"
-alias      µ˚cmm="perl /Users/kakky/Desktop/system/zsh-macros/cmm.pl"
-alias       µ˚ga="perl /Users/kakky/Desktop/system/zsh-macros/ga.pl"
+alias       µ˚cm="perl $HOME/Desktop/system/zsh-macros/cm.pl"
+alias      µ˚cma="perl $HOME/Desktop/system/zsh-macros/cma.pl"
+alias      µ˚cmm="perl $HOME/Desktop/system/zsh-macros/cmm.pl"
+alias       µ˚ga="perl $HOME/Desktop/system/zsh-macros/ga.pl"
 
 alias       µ˚rc="vim ~/.zshrc"
-alias   µ˚colors="perl /Users/kakky/Desktop/system/zsh-macros/colors.pl"
+alias   µ˚colors="perl $HOME/Desktop/system/zsh-macros/colors.pl"
 alias       µ˚nq="networkQuality"
 alias      µ˚ter="open -a \"Terminal\""
 alias        µ˚x="sh x.sh"
