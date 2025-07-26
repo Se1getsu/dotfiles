@@ -124,3 +124,10 @@ alias grun='java org.antlr.v4.runtime.misc.TestRig'
 
 # MAPS
 export PATH="/opt/maps-1.5/bin:$PATH"
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+
