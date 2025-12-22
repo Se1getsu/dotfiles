@@ -1,6 +1,3 @@
-export PATH="$HOME/.pyenv/shims:$PATH"
-alias py=python
-alias pip="python -m pip"
 alias sml="/usr/local/smlnj/bin/sml"
 alias rm="mv2trash"
 
@@ -125,11 +122,10 @@ alias grun='java org.antlr.v4.runtime.misc.TestRig'
 # MAPS
 export PATH="/opt/maps-1.5/bin:$PATH"
 
-# pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init --path)"
-eval "$(pyenv init -)"
+# Python (Homebrew)
+alias py=python3
+alias python=python3
+alias pip="python3 -m pip"
 
 # nest
 export PATH="$HOME/.nest/bin:$PATH"
